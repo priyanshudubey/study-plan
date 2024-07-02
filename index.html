@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Study Plan for React and Node.js</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f7f7f7;
+      }
+      h1 {
+        color: #333;
+        text-align: center;
+      }
+      h2,
+      h3 {
+        color: #555;
+        cursor: pointer;
+      }
+      ul {
+        list-style-type: none;
+        padding-left: 20px;
+        display: none; /* Initially hidden */
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      .completed {
+        text-decoration: line-through;
+        color: gray;
+      }
+      .expandable {
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      .expandable:hover {
+        background-color: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>One-Month Study Plan for React and Node.js</h1>
+
+    <section
+      id="week1"
+      class="expandable">
+      <h2>Week 1: Foundations of JavaScript and Node.js</h2>
+      <div class="expandable">
+        <h3>Day 1: JavaScript Fundamentals</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d1i1" />
+            Review basic JavaScript concepts (variables, data types, functions,
+            loops, conditionals)
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d1i2" />
+            Study ES6+ features (arrow functions, destructuring, spread/rest
+            operators, async/await)
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d1i3" />
+            Practice problems on platforms like LeetCode or Codewars
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 2: Introduction to Node.js</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d2i1" />
+            Understand what Node.js is and why it’s used
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d2i2" />
+            Set up Node.js and npm on your machine
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d2i3" />
+            Learn about Node.js modules and the CommonJS module system
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d2i4" />
+            Write a simple “Hello World” Node.js application
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 3: Core Node.js Concepts</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d3i1" />
+            Study Node.js event loop and asynchronous programming
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d3i2" />
+            Learn about the File System (fs) module
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d3i3" />
+            Explore built-in modules like <code>path</code>, <code>http</code>,
+            and <code>os</code>
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d3i4" />
+            Build a basic HTTP server
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 4: Express.js Basics</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d4i1" />
+            Install and set up Express.js
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d4i2" />
+            Learn about routing in Express
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d4i3" />
+            Build a basic REST API with CRUD operations
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 5: Connecting Node.js with Databases</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d5i1" />
+            Introduction to databases (SQL vs NoSQL)
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d5i2" />
+            Set up and connect to MongoDB using Mongoose
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w1d5i3" />
+            Create, read, update, and delete (CRUD) operations in MongoDB
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section
+      id="week2"
+      class="expandable">
+      <h2>Week 2: Advanced Node.js and Introduction to React</h2>
+
+      <div class="expandable">
+        <h3>Day 1: Middleware and Authentication in Express</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d1i1" />
+            Learn about Express middleware
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d1i2" />
+            Implement authentication with JWT (JSON Web Tokens)
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d1i3" />
+            Secure routes using middleware
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 2: Testing in Node.js</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d2i1" />
+            Introduction to testing frameworks like Mocha, Chai, and Jest
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d2i2" />
+            Write unit tests and integration tests for your API
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d2i3" />
+            Use Postman for API testing
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 3: Introduction to React</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d3i1" />
+            Understand the basics of React and its component-based architecture
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d3i2" />
+            Set up a React project using Create React App
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d3i3" />
+            Learn about JSX and React components (functional and class
+            components)
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 4: State and Props in React</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d4i1" />
+            Understand state and props in React
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d4i2" />
+            Learn about component lifecycle methods
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d4i3" />
+            Build simple React components to manage state
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 5: Handling Events and Forms in React</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d5i1" />
+            Learn how to handle events in React
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d5i2" />
+            Build and manage forms in React
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w2d5i3" />
+            Understand controlled vs uncontrolled components
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section
+      id="week3"
+      class="expandable">
+      <h2>Week 3: Advanced React and Integrating with Node.js</h2>
+
+      <div class="expandable">
+        <h3>Day 1: React Router</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d1i1" />
+            Learn about React Router for navigation
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d1i2" />
+            Implement route-based components
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d1i3" />
+            Use parameters and nested routes
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 2: State Management with Redux</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d2i1" />
+            Introduction to Redux for state management
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d2i2" />
+            Learn about actions, reducers, and the store
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d2i3" />
+            Integrate Redux into your React application
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 3: Asynchronous Actions in Redux</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d3i1" />
+            Understand Redux Thunk for asynchronous actions
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d3i2" />
+            Handle API calls in Redux
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d3i3" />
+            Update the Redux store based on API responses
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 4: Integrating React with Node.js</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d4i1" />
+            Set up CORS in your Node.js API
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d4i2" />
+            Connect your React frontend to your Node.js backend
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d4i3" />
+            Make API calls from React using Axios or Fetch
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 5: Advanced React Hooks</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d5i1" />
+            Learn about React hooks (<code>useState</code>,
+            <code>useEffect</code>, <code>useContext</code>)
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d5i2" />
+            Explore custom hooks
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w3d5i3" />
+            Refactor class components to functional components using hooks
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section
+      id="week4"
+      class="expandable">
+      <h2>Week 4: Project Week</h2>
+
+      <div class="expandable">
+        <h3>Day 1: Project Planning and Setup</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d1i1" />
+            Choose a full-stack project idea (e.g., task manager, e-commerce
+            site, social media app)
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d1i2" />
+            Plan the project structure and features
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d1i3" />
+            Set up the project repository and initialize React and Node.js
+            applications
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 2: Backend Development</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d2i1" />
+            Build out the backend API with Express and MongoDB
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d2i2" />
+            Implement user authentication and authorization
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d2i3" />
+            Create API endpoints for your main features
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 3: Frontend Development</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d3i1" />
+            Build out the main components and pages in React
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d3i2" />
+            Implement routing and navigation
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d3i3" />
+            Connect to the backend API and manage state
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 4: Project Development and Testing</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d4i1" />
+            Continue developing frontend and backend features
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d4i2" />
+            Write tests for both frontend and backend
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d4i3" />
+            Use tools like Postman and Jest for testing
+          </li>
+        </ul>
+      </div>
+
+      <div class="expandable">
+        <h3>Day 5: Deployment and Final Touches</h3>
+        <ul>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d5i1" />
+            Deploy your backend using a service like Heroku
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d5i2" />
+            Deploy your frontend using a service like Netlify or Vercel
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d5i3" />
+            Perform final testing and debugging
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              id="w4d5i4" />
+            Polish the UI/UX and ensure all features are working correctly
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section
+      id="tips"
+      class="expandable">
+      <h2>Additional Tips</h2>
+      <ul>
+        <li>
+          <input
+            type="checkbox"
+            id="tips1" />
+          <b>Practice Daily:</b> Spend extra time on weekends or evenings
+          practicing coding problems or reviewing concepts
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            id="tips2" />
+          <b>Use Resources:</b> Utilize online resources like official
+          documentation, tutorials, and courses from platforms like Udemy,
+          Codecademy, or freeCodeCamp
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            id="tips3" />
+          <b>Join Communities:</b> Participate in forums, join Discord channels,
+          and attend webinars to stay motivated and get help when needed
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            id="tips4" />
+          <b>Build Projects:</b> The more projects you build, the better you’ll
+          understand how to integrate various parts of your tech stack
+        </li>
+      </ul>
+    </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", (event) => {
+        // Load checkbox states from localStorage
+        document
+          .querySelectorAll('input[type="checkbox"]')
+          .forEach((checkbox) => {
+            const savedState = localStorage.getItem(checkbox.id);
+            if (savedState === "true") {
+              checkbox.checked = true;
+              checkbox.parentNode.classList.add("completed");
+            }
+            checkbox.addEventListener("change", (e) => {
+              // Save checkbox state to localStorage
+              localStorage.setItem(checkbox.id, checkbox.checked);
+              // Toggle the completed class
+              checkbox.parentNode.classList.toggle(
+                "completed",
+                checkbox.checked
+              );
+            });
+          });
+
+        // Toggle the visibility of each section
+        document
+          .querySelectorAll(".expandable h2, .expandable h3")
+          .forEach((heading) => {
+            heading.addEventListener("click", () => {
+              let nextElement = heading.nextElementSibling;
+              while (nextElement && !nextElement.tagName.match(/^h[23]$/i)) {
+                nextElement.style.display =
+                  nextElement.style.display === "none" ? "block" : "none";
+                nextElement = nextElement.nextElementSibling;
+              }
+            });
+          });
+
+        // Initially show or hide sections based on localStorage
+        document
+          .querySelectorAll(".expandable h2, .expandable h3")
+          .forEach((heading) => {
+            let nextElement = heading.nextElementSibling;
+            const savedState = localStorage.getItem(heading.textContent.trim());
+            if (savedState === "true") {
+              while (nextElement && !nextElement.tagName.match(/^h[23]$/i)) {
+                nextElement.style.display = "block";
+                nextElement = nextElement.nextElementSibling;
+              }
+            } else {
+              while (nextElement && !nextElement.tagName.match(/^h[23]$/i)) {
+                nextElement.style.display = "none";
+                nextElement = nextElement.nextElementSibling;
+              }
+            }
+            heading.addEventListener("click", () => {
+              const isVisible = nextElement.style.display === "block";
+              localStorage.setItem(heading.textContent.trim(), !isVisible);
+            });
+          });
+      });
+    </script>
+  </body>
+</html>
