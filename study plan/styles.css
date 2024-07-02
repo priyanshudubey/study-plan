@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+#site-name {
+  font-size: 24px;
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#back-to-home {
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#back-to-home:hover {
+  text-decoration: underline;
+}
+
+#search-bar {
+  width: 200px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.box a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.box a:hover {
+  text-decoration: underline;
+}
+
+#cookie-consent {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+#cookie-consent button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#cookie-consent button:hover {
+  background-color: #0056b3;
+}
+
+.highlight {
+  border: 2px solid red;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.expandable h2,
+.expandable h3 {
+  cursor: pointer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.expandable h2:hover,
+.expandable h3:hover {
+  background-color: #ddd;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+ul li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+ul li input[type="checkbox"] {
+  margin-right: 10px;
+}
