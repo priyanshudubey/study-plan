@@ -1,0 +1,80 @@
+/* styles_node.css for node.html */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#site-name {
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.expandable {
+  width: 100%;
+  max-width: 600px; /* Adjust max-width as needed */
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.expandable h2,
+.expandable h3 {
+  cursor: pointer;
+  background-color: #ddd;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.expandable h2:hover,
+.expandable h3:hover {
+  background-color: #ccc;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+ul li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+ul li input[type="checkbox"] {
+  margin-right: 10px;
+}

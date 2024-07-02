@@ -5,56 +5,81 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
-    <title>Study Plan</title>
+    <title>Study Plan - Home</title>
     <link
       rel="stylesheet"
       href="styles.css" />
+    <style>
+      h1 {
+        font-family: "Courier New", monospace;
+      }
+    </style>
     <script
       src="scripts.js"
       defer></script>
   </head>
   <body>
     <header>
-      <div id="site-name">Study Plan</div>
-      <input
-        type="text"
-        id="search-bar"
-        placeholder="Search for a language..." />
+      <a
+        href="index.html"
+        id="site-link">
+        <div id="site-name">Study Plan</div>
+      </a>
     </header>
 
-    <main id="content">
-      <div
-        class="box"
-        data-language="Node.js">
-        <h2>Node.js</h2>
-        <a href="node.html">Start Learning</a>
+    <main>
+      <h1>Welcome to Study Plan</h1>
+
+      <div id="search-container">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search for a language..." />
+        <button id="search-button">Search</button>
+        <p id="search-result"></p>
       </div>
-      <div
-        class="box"
-        data-language="React">
-        <h2>React</h2>
-        <a href="react.html">Start Learning</a>
+
+      <div class="box-container">
+        <div
+          class="box"
+          data-language="node.js">
+          <h2>Node.js</h2>
+          <p>One-Month Study Plan</p>
+          <a href="node.html">View Plan</a>
+        </div>
+
+        <div
+          class="box"
+          data-language="react">
+          <h2>React</h2>
+          <p>One-Month Study Plan</p>
+          <a href="react.html">View Plan</a>
+        </div>
+
+        <div
+          class="box"
+          data-language="javascript">
+          <h2>JavaScript</h2>
+          <p>One-Month Study Plan</p>
+          <a href="javascript.html">View Plan</a>
+        </div>
+
+        <div
+          class="box"
+          data-language="python">
+          <h2>Python</h2>
+          <p>One-Month Study Plan</p>
+          <a href="python.html">View Plan</a>
+        </div>
       </div>
-      <div
-        class="box"
-        data-language="JavaScript">
-        <h2>JavaScript</h2>
-        <a href="javascript.html">Start Learning</a>
-      </div>
-      <div
-        class="box"
-        data-language="Python">
-        <h2>Python</h2>
-        <a href="python.html">Start Learning</a>
+
+      <div id="cookie-consent">
+        <p>
+          This website uses cookies to enhance the user experience. By accepting
+          cookies, you agree to our use of cookies.
+        </p>
+        <button id="accept-cookies">Accept Cookies</button>
       </div>
     </main>
-
-    <div id="cookie-consent">
-      <p>
-        This site uses cookies to store your progress. Do you accept the use of
-        cookies?
-      </p>
-      <button id="accept-cookies">Accept</button>
-    </div>
   </body>
 </html>
